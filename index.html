@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e901bbc797.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.jpg">
+    <title>SH.Davronov || Portifolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>SH.Davronov </h1>
+            <h3>Web coding with a team</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>Men haqimda</h1>
+            <a href="https://t.me/sh_2249"><i class="fa-brands fa-telegram"></i> 
+                <i class="fa-brands fa-instagram"></i> 
+                <i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="card">
+            <img src="img/logo.jpg">
+            <div class="info">
+                <h1>SH.Davronov</h1>
+                <p>
+                    Men YouTuber va frontend dasturchiman. 3 yillik tajribaga ega bo‘lib, HTML, CSS texnologiyalarini chuqur bilaman. Shuningdek, JavaScript va C++ bilan ishlay olaman.
+
+                    Pythonni bilaman va mustaqil ravishda Telegram botlarini yaratish hamda ularni sozlash tajribam bor. Algoritmlarni tushunaman, ularni tuzish va tahlil qilish bo‘yicha tajribam yetarli.
+                    
+                    Kod yozish va murakkab muammolarni yechish menga yoqadi. O‘z ustimda ishlashni va yangi texnologiyalarni o‘rganishni yaxshi ko‘raman.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="header">
+            <!-- <a href="#">See More</a> -->
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h1>Yuksak daraja</h1>
+                    <p>
+                    Siz kutganingizdanda sifatli va tezroq bajarish menga hoziroq bog'laning 
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>Ijodiy loyihalar</h1>
+                    <p>
+                     Men uch yildan beri qanaqa asosiy loyihalar tuzdim:
+
+                    <br> 1.Kiyim sotish uchun sayt. <br>
+                     2.Savol javob va Testlarni yechish sayti. <br>
+                     3.Musiqa playeri ilovasi. <br>
+                     4.Kino va seriyallar sayti. <br>
+                     5.O'zbekiston tarixini ko'rsatadigan loyixa. (turistlar uchun)
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>Kod sifati</h1>
+                    <p>
+                        Sayt ortida men toza, samarali va barqaror kod yozishdan faxrlanaman.
+                        funksionalligi va ishlashiga hissa qo'shadigan kodlash standartlariga juda mos
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+        </div>
+        <h1 style="color: #fff; padding: 10px;">Men Bilan bog'laning</h1>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <h1>Dasturchi bilan bog'lanish</h1>
+                    <p id="habar"> Sizga habar faqat emailingiz orqali yuboriladi (spam listi qarashni unutmang)</p>
+                    <form id="contactForm">
+                        <label for="name">Ism</label>
+                        <input type="text" id="name" name="name" placeholder="Ismingiz" required>
+                
+                        <label for="email">Elektron Pochta</label>
+                        <input type="email" id="email" name="email" placeholder="Elektron pochtangiz" required>
+                
+                        <label for="phone">Telefon</label>
+                        <input type="text" id="phone" name="phone" placeholder="Telefon raqamingiz" required>
+                
+                        <label for="message">Xabaringiz</label>
+                        <textarea id="message" name="message" placeholder="Nima yordam bera olaman?" required></textarea>
+                
+                        <button class="send-ms" type="submit">Xabar yuborish</button>
+                    </form>
+                    <div id="responseMessage" style=" position: relative; display: none; color: rgb(0, 255, 38); font-weight: bold; text-align: center;  top: -380px;">
+                        Xabar yuborildi!
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <button class="scroll-top" onclick="scrollToTop()">
+            <i class='bx bxs-up-arrow'></i>
+        </button>
+    </section>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="connect.js"></script>
+</body>
+
+</html>
